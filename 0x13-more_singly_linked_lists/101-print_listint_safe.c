@@ -25,37 +25,8 @@ size_t print_listint_safe(const listint_t *head)
 		}
 		printf("[%p] %d\n", (void *)head, head->n);
 		head = head->next;
-		nodes++
+		nodes++;
 	}
 	head = NULL;
 	return (nodes);
 }	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
